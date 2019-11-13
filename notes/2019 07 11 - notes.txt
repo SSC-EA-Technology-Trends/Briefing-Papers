@@ -1,0 +1,46 @@
+remove afac
+
+other related pub
+
+
+
+other related pub
+
+remove langage
+FR : and ENG
+
+remove deprecated
+
+remove initial release
+
+fuse publication
+
+mettre la version francaise en brackets
+
+mettre en francais les brackets
+
+link for publication only : EN - FR
+
+name (nom) - Zero Trust network (Français)
+official publication (no publications officielle)
+
+ajouter le text : 
+
+purpose is the introduction paragraph
+
+
+Internet of Things is the concept of connecting any type of devices to the Internet and/or the each other. Such devices includes everything from cellphones, coffee makers, washing machines, headphones, lamps, wearable devices and more. The goal of having that functionality is   
+Having a connection to the internet means data can be uploaded to the Internet or downloaded to the devices.
+Simply put, this is the concept of basically connecting any device with an on and off switch to the Internet (and/or to each other). This includes everything from cellphones, coffee makers, washing machines, headphones, lamps, wearable devices and almost anything else you can think of.  This also applies to components of machines, for example a jet engine of an airplane or the drill of an oil rig. As I mentioned, if it has an on and off switch then chances are it can be a part of the IoT.  The analyst firm Gartner says that by 2020 there will be over 26 billion connected devices... That's a lot of connections (some even estimate this number to be much higher, over 100 billion).  The IoT is a giant network of connected "things" (which also includes people).  The relationship will be between people-people, people-things, and things-things.
+
+
+
+
+
+
+
+
+
+
+
+

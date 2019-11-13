@@ -1,0 +1,43 @@
+publish the english version first and wait for the french
+
+5g network
+big data
+edge comp
+face rec
+
+
+status : translation
+
+the remainings
+
+status : development
+
+hoping for other to talk to jf
+
+dont create pages
+
+
+
+digital lakes
+digital twins
+digitals services
+interoperabilitly
+kubernetes
+
+other status : unassigned
+
+release date : from latest release
+	- add target date
+	- everything after september : FY 19-20 Q3
+	- actual release date
+
+official publication : EN only 
+
+english vs french is going to be different
+
+FY : starts april every 3 motnhs
+
+
+
+remove whent the page is approved and finalized, we wills end it for trnaslation
+
