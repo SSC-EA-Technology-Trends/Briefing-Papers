@@ -1,0 +1,292 @@
+{{DISPLAYTITLE:<span style="position: absolute; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px);">{{FULLPAGENAME}}</span>}}
+[[fr:Tendances_Technologiques/Plateforme_de_Gestion_Infonuagique]]
+
+<div class="mw-collapsible" data-expandtext="Show Detailed View" data-collapsetext="Hide Detailed View">
+  <div class="sidetable">
+    <table class="wikitable">
+      <tr>
+        <th class="breadcrumb" colspan="2">
+          <table class="breadcrumb-table">
+            <tr>
+              <th>[[Technology_Trends|Technology Trends]]</th>
+              <th> / </th>
+              <th>Digital Assistants</th>
+            </tr>
+          </table>
+          <table class="breadcrumb-table">
+            <tr>
+              <th>[[Tendances_Technologiques|Tendances Technologiques]]</th>
+              <th> / </th>
+              <th>Assistants Numériques<!--[[Tendances_Technologiques/Plateforme_de_Gestion_Infonuagique|Plateforme de Gestion Infonuagique]]--></th>
+            </tr>
+          </table>
+        </th>
+      </tr>
+      <tr><td colspan="2" class="logo">[[File:Technology_Trends_-_Digital_Assistants_logo.png|200px]]</td></tr>
+      <tr>
+        <th>Status</th>
+        <td>Translation</td>
+      </tr>
+      <tr>
+        <th>Initial release</th>
+        <td>September 25, 2019</td>
+      </tr>
+      <tr>
+        <th>Latest version</th>
+        <td>September 25, 2019</td>
+      </tr>
+      <tr>
+        <th>Official publication</th>
+        <td>[[Media:EN_-_Technology_Trends_-_Digital_Assistants.pdf|Digital Assistants.pdf]]</td>
+      </tr>
+      <tr><td colspan="2" class="disclaimer"><table><tr>
+        <td>[[File:Traffic_cone.png|40px]]</td>
+        <td class="disclaimerText">This page is a work in progress. We welcome your feedback. Please use the discussion page for suggestions and comments. When the page is approved and finalized, we will send it for translation.</td>
+      </tr></table></td></tr>
+    </table>
+  </div>
+
+  <p><b>Digital Assistant</b>, also known as Conversational User Interfaces (CUI), attempt to bridge the gap between naturally spoken and written human language and devices. Traditional Graphical User Interfaces (GUI) permit users to navigate an electronic device through buttons, visual cues, and text. CUIs can cut through the potentially complicated steps that a user must go through to accomplish a task. This can be in the form of retrieving information, getting directions, sending emails, playing media, ordering food, organizing a calendar, etc.</p>
+
+  <div class="mw-collapsible-toggle btn" style="float: left; display: block;">
+    <div class="toggle mw-collapsible-toggle-collapsed" role="button" tabindex="0"><span class="mw-collapsible-text">Hide Detailed View</span></div>
+  </div><br><br>
+
+  <h2>Business Brief</h2>
+
+  <p>In today’s market, Conversational UIs are produced in two forms that both consist of Artificial Intelligence technologies: voice assistants and chatbots<ref>Browlee, J. (2016, April 4). <i>[https://www.fastcompany.com/3058546/conversational-interfaces-explained Conversational Interfaces, Explained]</i>. Retrieved from fastcompany.com</ref>. Voice assistants such as Amazon Alexa, Google Assistant, Cortana, and Siri allow for audio and text based communication between users and devices while chatbots are text based only.</p>
+  
+  <p class="expand mw-collapsible-content">The functional use of voice assistants and chatbots is potentially quite broad. Since most voice assistants and chatbots can interface with different applications, this greatly improves problem resolution when the user encounters an issue within an application. For example, a virtual assistant can be used to provide routine assistance that would normally be answered by a live agent such as resetting a user’s password or obtaining an activation code for a login process.<ref>Reddy, T. (2017, October 17). How chatbots can help reduce customer service costs by 30%. Retrieved from ibm.com: https://www.ibm.com/blogs/watson/2017/10/how-chatbots-reduce-customer-service-costs-by-30-percent/</ref> Microsoft also uses an automated assistant to provide users with activation codes for their products.<ref>Costa, A. D. (2018, November 8). <i>[https://www.groovypost.com/howto/activate-windows-10-license-microsoft-support/ HOW-TOActivate Your Windows 10 License via Microsoft Chat Support]</i>. Retrieved from groovypost.com</ref></p>
+  
+  <p class="expand mw-collapsible-content">Some major technology companies are developing voice assistants or chatbots usable with the most common applications or devices. While their concept has been around for decades, only recently have Digital Assistants (DAs) (another name for voice assistants) begun to provide a strong, reliable and wide range of abilities. Digital assistants are software agents that are able to perform countless different tasks for users. Recent digital assistants, such as Google Assistant and Apple’s Siri, are developed to be voice activated and respond to or perform a service from a user’s natural language. These type of assistants are activated by end users and perform tasks as directed by the user. These differ from digital assistants that can communicate with other digital assistants.</p>
+  
+  <p>Conversational UI will continue to progress and secure a crucial role in all Internet of Things (IoT) devices moving forward. Tasks that were traditionally performed by secretarial positions can potentially be done by digital assistants that can communicate in the background with other applications. These tasks include managing personal information, providing appointment reminders, storing contact information, sending messages and much more. With their deep technology embedding, various functional capabilities and easy-to-use interfaces, DAs are very capable of providing useful support within any organization by using Natural Language Understanding (NLU)<ref>Wikipedia. (2019, August 24). Natural-language understanding. Retrieved from en.wikipedia.org: https://en.wikipedia.org/wiki/Natural-language_understanding</ref> and Natural Language Processing (NLP)<ref>Wikipedia. (2019, September 15). Natural language processing. Retrieved from en.wikipedia.org: https://en.wikipedia.org/wiki/Natural_language_processing</ref>, to enable human-to-human like communication with websites, mobile apps, and external devices.</p>
+
+  <h2>Technology Brief</h2>
+
+  <p class="inline">Conversational UI functions by having the user input natural language, either in audio or written form. The input is then processed by Artificial Intelligence (AI) systems and a response is given. Several voice assistants, including Apple’s Siri, Google Assistant, Samsung’s Bixby<ref>Jansen, M. (2019, March 13). <i>[https://www.digitaltrends.com/mobile/how-to-use-bixby/ How to use Samsung Bixby: Everything you need to know]</i>. Retrieved from digitaltrends.com</ref>, and Amazon’s Alexa, use cloud-based technology to process the input speech given by the user. The advantage of this is the ability to construct large databases of audio allowing the voice assistant to process the input faster and predict what the individual will say.</p><p class="inline expand mw-collapsible-content"> In this manner, it allows for a more fluid conversation between humans and devices. Since the processing of input speech is not done on the device, this can create a privacy concern regarding the user-device interactions being stored elsewhere.</p>
+  <p class="inline-spacer"></p>
+  <p class="inline">Digital Assistants, also known as Chatbots or virtual assistants, function in a similar manner and can be divided into two broad categories: they are generally scripted (basic user interaction) or structured (engaging virtual assistants). They may also be integrated with collaboration tools and messaging applications.</p><p class="inline expand mw-collapsible-content"> Chatbots that are scripted tend to be more hard-coded, meaning they are expecting questions and interactions from a set of use cases and formulate their responses accordingly.</p>
+  <p class="inline-spacer"></p>
+  <p>Scripted bots<ref>Onlim. (2019, March 11). How Do Chatbots Work? Retrieved from onlim.com: https://onlim.com/en/how-do-chatbots-work/</ref> can be thought of as providing a guided conversation. Although the implementation of these is less involved, it also provides stricter limitations on the level of communication that can be performed. Structured chatbots rely on AI and more specifically cloud-based Natural Language Understanding (NLU) to generate machine actionable data from user input. Unlike their scripted counterparts, these types of chatbots are more complex and require more effort to properly implement, however, the end user is able to be less rigid in the way questions and interactions are structured.</p>
+  
+  <p>Scripted bots follow decision trees to answer pre-defined questions. The reason why chatbots with the same capabilities end up with vastly different customer experiences is because of the quality of the underlying decision trees.<ref>Steele, I. (2018, February 22). Journey Mapping for Chatbots: How to Create a Chatbot Decision Tree from Scratch. Retrieved from comm100.com: https://www.comm100.com/blog/journey-mapping-chatbot-decision-tree-from-scratch.html</ref> These bots need to ask enough questions and an appropriate level of depth to provide the customer with the most accurate answer but refrain from asking unneeded questions or leading a customer in circles without providing an answer to them. Customer journey maps<ref>Atlassian. (2019, September 20). <i>[https://www.atlassian.com/team-playbook/plays/customer-journey-mapping Customer Journey Mapping]</i>. Retrieved from atlassian.com</ref> will assist with the development of the decision tree.</p>
+  
+  <p class="inline">Digital assistants are a software agent that performs various tasks and services for its user. DAs, such as Samsung’s Bixby<ref>Agence France-Presse. (2017, April 6). <i>[https://www.scmp.com/lifestyle/article/2085067/samsungs-new-personal-digital-assistant-bixby-faces-few-tough-challenges Samsung's new personal digital assistant Bixby faces a few tough challenges]</i>. Retrieved from scmp.com</ref>, use voice commands to control applications and handle these requests. This recent development of virtual assistants makes it relatively easy for end users to master the software usage. Digital Assistants also have skills, which are apps that can be acquired through a skill store. This allows users to install the skills that would be most useful to them.</p><p class="inline expand mw-collapsible-content"> These skills include things like a weather skill, a podcast skill, and a workout skill. Some of these skills are free and some cost money. Some are built by vendors, some are built by the community, and it’s possible for you to build your own skills.</p>
+  
+  <p class="expand mw-collapsible-content">However, questions must still be clearly formatted for the DA to understand it. The device’s built in microphone parses a user’s voice to be registered using natural language processing (NLP). The requests made by users are stored in data centres, which aid in the service delivery to the software’s users. Based on a user’s request history, digital assistants are now using pre-existing information to deliver services to users with higher accuracy. For example, “several times a day, Amazon uses the entire stack of Alexa queries to educate its A.I. about dialects and casual speech.”<ref>Moynihan, T. (2016, December 5). Alexa and Google Home Record What You Say. But What Happens to That Data? Retrieved from wired.com: https://www.wired.com/2016/12/alexa-and-google-record-your-voice/</ref></p>
+  
+  <p>Generally, voice activated digital assistants are constantly operating at a low processing rate until a key word is heard to notify the DA that a request is about to be made. For example, Google Home listens to its surroundings until the words “Ok Google” are said aloud. Digital assistants then translate a user’s proceeding commands into text that is analyzed by multiple algorithms to execute a task. These algorithms break up the requests into key parts, which make it easy to send emails, messages, or store records.</p>
+  
+  <p class="expand mw-collapsible-content"></p>There are three main types of algorithms that are used to analyze your request: Natural Language Processing (NLP)<ref>Wikipedia. (2019, September 15). Natural language processing. Retrieved from en.wikipedia.org: https://en.wikipedia.org/wiki/Natural_language_processing</ref>, Natural Language Understanding<ref>Wikipedia. (2019, August 24). Natural-language understanding. Retrieved from en.wikipedia.org: https://en.wikipedia.org/wiki/Natural-language_understanding</ref>, and Natural Language Generation (NLG)<ref>Wikipedia. (2019, September 6). Natural-language generation. Retrieved from en.wikipedia.org: https://en.wikipedia.org/wiki/Natural-language_generation</ref>. NLP deals with how to write computer programs to collect and process large amounts of natural language data. This can be a difficult task when some languages like Japanese and Chinese use characters that represent words and letters with no spaces between which makes it harder for the computer to understand what’s being said. It is easier in languages like English to identify words since they are almost always separated by a space. Another challenge is when the same word can be used as a different part of the sentence (noun, verb, etc). For example, you can turn on a light (noun), something can be light (adjective) (not heavy), you can light a candle (verb).</p>
+  
+  <p class="expand mw-collapsible-content">Natural Language Understanding (NLU)<ref>Rouse, M. (2019, September 20). natural language understanding (NLU). Retrieved from searchenterpriseai.techtarget.com: https://searchenterpriseai.techtarget.com/definition/natural-language-understanding-NLU</ref> refers to understanding input to a computer in the form of spoken words or text. It enables computers to understand human speech without using a pre-programmed syntax and allows computers to respond to the commands or questions in an intelligent and coherent manner. NLU is what’s behind chat bots that interact with humans without intervention.</p>
+  
+  <p class="expand mw-collapsible-content">Natural Language Generation (NLG)<ref>Wikipedia. (2019, September 6). Natural-language generation. Retrieved from en.wikipedia.org: https://en.wikipedia.org/wiki/Natural-language_generation</ref> is the process of converting text into natural language, which is the opposite of NLU. NLG can take data from text, graphics, or even generated narratives and create responsive narratives that are a summary of the information. The first NLG commercial system was to create weather forecasts from weather data.<ref>Goldberg, E., Driedger, N., & Kittredge, R. I. (1994, April). <i>[https://dl.acm.org/citation.cfm?id=630016 Using Natural-Language Processing to Produce Weather Forecasts]</i>. Retrieved from dl.acm.org</ref> Another example of natural language generation is a BI platform that can generate explanations of data visualizations within a dashboard.<ref>Automated Insights. (2018, January 30). <i>[https://medium.com/@AutomatedInsights/the-ultimate-guide-to-natural-language-generation-bdcb457423d6 The Ultimate Guide to Natural Language Generation]</i>. Retrieved from medium.com</ref></p>
+
+  <h2>Industry Usage</h2>
+
+  <p class="inline">Conversational UI provides an alternative way for humans to interact with devices. They allow users to interact with and navigate a system, app, or device using conversational input only. Conversational UIs and digital assistants can open applications, write text into an input box, and issue commands to applications. For example “Hey Siri, set a timer for 30 seconds”). So a conversational UI is a replacement for a graphical user interface (GUI).</p><p class="inline expand mw-collapsible-content"> Conversational interfaces can be found on nearly all mobile devices now, as most cell phones come pre-installed with a their manufacturer’s digital assistant.</p><p class="inline"> These interfaces allow for better service delivery by providing a newer technology that end users have come to expect.</p>
+  <p class="inline-spacer"></p>
+  <p class="inline">Some of the simpler customer interactions can be automated to allow human resources to perform more difficult tasks that are hard to automate in the service industry.</p><p class="inline expand mw-collapsible-content"> For example, the Dutch airline KLM has begun using a chatbot that interfaces with Facebook’s messenger app<ref>Mielke, C. (2016, July 18). <i>[https://www.smashingmagazine.com/2016/07/conversational-interfaces-where-are-we-today-where-are-we-heading/ Conversational Interfaces: Where Are We Today? Where Are We Heading?]</i> Retrieved from smashingmagazine.com</ref>. This allows individuals to check their flight details and even modify certain travel aspects without having to contact a KLM representative directly. This is a great advantage as human KLM representatives can be applied to more serious customer issues.</p>
+  
+  <p>Sephora, a popular makeup retailer in the U.S., has a successful bot on Kik. Kik is a mobile messaging application that allows one-on-one chatting, group chats, and an internal web browser.<ref>webwise.ie. (2019, September 20). Explainer: What is Kik? Retrieved from webwise.ie: https://www.webwise.ie/parents/explainer-what-is-kik/</ref> The app also has sub-apps that work within the browser, which encourages users to stay within the app.</p>
+  
+  <p>Today, the bot engages users with a number of questions about makeup preferences and serves up content and offers relevant to the responses it receives. While it does not sound like a highly sophisticated process, the more consumers engage with the bot over time, the smarter the bot (as well as the brand) gets about consumer preferences and the better it can serve personalized content and offers.</p>
+  
+  <p class="expand mw-collapsible-content">Several major technology companies including Amazon, Google, Apple, and Samsung have already released voice-activated assistants. There are also many platforms developed in combination with NLU platform, to facilitate the construction of chatbots. Some of these include API.ai (Google), Wit.ai (Facebook), and the Microsoft Bot Framework.<ref>Paulson, K. (2017, March 23). A beginner's guide to designing conversational interfaces. Retrieved from webdesignerdepot.com: https://www.webdesignerdepot.com/2017/03/a-beginners-guide-to-designing-conversational-interfaces/</ref> Designing chatbots for specific tasks using these platforms allow individuals to interface with their applications and in turn communication is established among a plethora of applications. For example, building an agent using Google’s API.ai automatically creates a Google cloud platform<ref>Catanzariti, P. (2017, May 22). <i>[https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/ How to Build Your Own AI Assistant Using Api.ai]</i>. Retrieved from sitepoint.com</ref> for the agent. Using the Google cloud platform provides a secure and high-performance infrastructure, which is maintained by Google. The Google Cloud Platform offers services for compute, storage, networking, big data, machine learning and the internet of things (IoT), as well as cloud management, security and developer tools.<ref>Rouse, M. (2016, January 29). Google Cloud Platform (GCP). Retrieved from searchcloudcomputing.techtarget.com: https://searchcloudcomputing.techtarget.com/definition/Google-Cloud-Platform</ref></p>
+  
+  <p>Digital assistants offer an alternative way for users to perform their daily tasks. They have the potential to eliminate a lot of the time individuals spend typing emails, documents, checking for updates and more. The potential amount of time digital assistants can save could have countless benefits for an industry. As digital assistants develop, their capabilities increase rapidly. This means corporations can use the assistants to give instant voice messages, send broadcasts, play audio and more.</p>
+  
+  <p>Digital assistants such as Amazon’s Alexa are already being implemented in businesses across North America. DA’s are being used to notify IT service desks of technology-related issues, to begin conference calls<ref>Amazon. (2019, August 13). <i>[https://docs.aws.amazon.com/a4b/latest/ag/setup-conferencing.html Alexa for Business]</i>. Retrieved from docs.aws.amazon.com</ref>, locate open meeting rooms<ref>Perez, S. (2018, October 10). Alexa can now reserve conference rooms. Retrieved from techcrunch.com: https://techcrunch.com/2018/10/10/alexa-can-now-reserve-conference-rooms/</ref>, operate office lights<ref>Smart Home Focus. (2019, March 9). Alexa turn on the lights. Retrieved from smarthomefocus.com: https://www.smarthomefocus.com/alexa-turn-on-lights/</ref> and even check security camera feeds<ref>Lamkin, P. (2019, April 17). <i>[https://www.the-ambient.com/how-to/how-to-watch-nest-security-camera-alexa-493 How to view security camera footage on your Amazon Echo devices]</i>. Retrieved from the-ambient.com</ref>.</p>
+  
+  <p class="expand mw-collapsible-content">McDonalds uses LivePerson<ref>Sutton, J. (2019, April 9). LivePerson helps McDonald's Canada launch conversational commerce on Google Assistant. Retrieved from newswire.ca: https://www.newswire.ca/news-releases/liveperson-helps-mcdonald-s-canada-launch-conversational-commerce-on-google-assistant-802328181.html</ref>, which is a conversational service that is available through Google Assistant-powered smartphones, to allow customers to benefit from a number of useful features including location-aware special offers, hands-free browsing, and the ability to place an order by tapping any offer. This service is currently available to all customers in Canada who use the Google Assistant service.</p>
+
+  <h2>Canadian Government Use</h2>
+
+  <p>The use of Conversational UI can provide several benefits to the Government of Canada. Since Conversational UI increases the quality of interaction between human and device, the GC can benefit from its use in the delivery of Services. For example, if Conversational UI were used to handle basic technical problems encountered by employees in the GC, this would ease the workload of IT support staff allowing them to deal with more complex issues that the Conversational UI cannot handle.</p>
+  
+  <p>Conversational UIs could also be used on GC websites. This would aid Canadian citizens accessing the websites to quickly obtain information they are seeking through natural language requests with a chatbot. If the chatbot can’t retrieve information or direct the user where to go, the chatbot could connect the user with the relevant department’s contact information or with an appropriate help desk worker.  It could also be beneficial when an individual is required to fill out forms or applications to give immediate feedback on whether the data they have entered is valid or needs to be modified.</p>
+  
+  <p class="expand mw-collapsible-content">In addition, digital assistants have to potential to improve on an employee’s productivity. In a survey conducted by AtTask and Harris Interactive, employees reported spending 45 percent of their time doing work that was required by their primary roles.<ref>AtTask. (2014, October 22). <i>[https://www.prnewswire.com/news-releases/attask-study-shows-miscommunication-and-distractions-overshadow-work-productivity-720630018.html AtTask Study Shows Miscommunication and Distractions Overshadow Work Productivity]</i>. Retrieved from prnewswire.com</ref> Excessive emails were identified as a leading contributor for reducing productivity. Digital assistants can bridge that gap by performing repetitive tasks such as setting up and joining meetings<ref>Amazon. (2019, August 13). <i>[https://docs.aws.amazon.com/a4b/latest/ag/setup-conferencing.html Alexa for Business]</i>. Retrieved from docs.aws.amazon.com</ref>, sending emails, answering frequently asked questions, and answering simple customer queries.</p>
+  
+  <p>Digital assistants have a unique capability in that user generated “skills” or functions can be added by users and business to deal with specific tasks. The GC could create it’s own “skills” to deal with specific scenarios unique to the federal workplace.  Doing so can increase productivity by giving more time to workers to focus on important tasks and there is the related potential of saving money since less time will be wasted on repetitive tasks.</p>
+  
+  <p class="expand mw-collapsible-content">Since chatbots and DA’s are a recent introduction to the GC, few examples exist of federal use of the technologies. As more time passes and solutions exit their prototyping phases, more examples of use will be available.</p>
+  
+  <p>According to Sarah Turnbull, the first instance of the GC launching a chatbot was from December 25, 2017 to February 28, 2018 as part of an awareness campaign from Public Safety Canada called “Don’t Drive High”<ref>Turnbull, S. (2018, April 9). Ottawa used Facebook chatbot for ‘driving high’ campaign. Retrieved from ipolitics.ca: https://ipolitics.ca/2018/04/09/facebook-chatbot-message-about-driving-high-on-pot-a-first-for-feds/</ref>. The chatbot was designed as a way to interactively educate people 16 to 24 year old about the risks of driving high, while also providing them a way to find help or find a ride to get home.</p>
+  
+  <p>Under the CBSA Assessment and Revenue Management (CARM) initiative<ref>Canada Border Services Agency. (2019, September 4). <i>[https://www.cbsa-asfc.gc.ca/prog/carm-gcra/menu-eng.html CBSA Assessment and Revenue Management]</i>. Retrieved from cbsa-asfc.gc.ca</ref>, the Canada Border Services Agency (CBSA) is currently proposing a chatbot<ref>Canadian Society of Customs Brockers. (2019, April 10). <i>[http://cscb.ca/content/carm-trade-chain-partners-tcp-consultation-meeting-april-2019 CARM Trade Chain Partners (TCP) Consultation Meeting, April 2019]</i>. Retrieved from cscb.ca</ref> that can help Trade Chain Partners (TCPs) with getting to valuable information faster. The proposed chatbot will help TCPs with understanding CBSA regulations as they relate to questions asked by the TCP. The chatbot will help with the CARM initiative’s stated goal of “modernizing and streamlining the process of importing commercial goods into Canada”.</p>
+
+  <h2>Implications for Government Agencies</h2>
+
+  <h3>Shared Services Canada (SSC)</h3>
+
+  <h4>Value Proposition</h4>
+
+  <p>Shared Services Canada (SSC) could gain value from conversational UI internally, by allowing it to deal with employee technical issues in a self-serve fashion. It can also allow external individuals to gain information quickly about SSC and refine their questions, without having to navigate an information rich website they may be unfamiliar with. Usage data collected from user interactions can help with getting insights on how to improve service delivery to stakeholders, clients and Canadians.</p>
+
+  <p class="expand mw-collapsible-content">The most frequently asked questions can point out what information needs to be made better available, and if new services need to be created. Additionally, an overlooked benefit of DAs and chatbots, is that they do not judge the questions being asked, don’t appear impatient and may be more approachable than live assistants. This could increase user interaction as they would feel more comfortable asking questions they might have otherwise been too hesitant to ask.</p>
+
+  <p>DAs can also increase employee productivity<ref>Gibbison, M. (2017, January 11). <i>[https://diginomica.com/7-ways-digital-assistants-and-ai-will-help-transform-public-services 7 ways digital assistants and AI will help transform public services]</i>. Retrieved from diginomica.com</ref> and help them focus on the core tasks of their mandate. DAs and chatbots alike can be used to fill out forms and can prompt users when a section has been filled out incorrectly and submit them on a user’s behalf to save time.<ref>Clifford, C. (2014, November 23). <i>[https://www.entrepreneur.com/article/240076 How Much Time Do Your Employees Spend Doing Real Work? The Answer May Surprise You. (Infographic)]</i>. Retrieved from entrepreneur.com</ref></p>
+
+  <h4>Challenges</h4>
+
+  <p>The launch of Conversational UI’s in the GC provides a few challenges. Using either voice-activated assistants or chatbots designed using platforms like API.ai and Wit.ai means that the GC will be using Google’s or any other company’s cloud computing network to process the information submitted to the conversational UI. SSC will need to assess the security and privacy implications this brings forth. If the Conversational UI were to be designed without the use of these platforms then that would mean a sizable investment into designing one as well as maintaining it, unless an open source solution is adopted.</p>
+  
+  <p>The challenges with digital assistants are extremely important to note due to their level of severity. One of the issues with digital assistants is the security threat they can pose. Since the majority of DAs are voice-activated, they are vulnerable to attacks such as the DolphinAttack<ref>Arntz, P. (2018, July 18). <i>[https://blog.malwarebytes.com/security-world/2018/07/whats-the-real-value-and-danger-of-smart-assistants/ What’s the real value—and danger—of smart assistants?]</i> Retrieved from blog.malwarebytes.com</ref>. The DolphinAttack is based on the fact that Dolphins can hear frequencies that humans cannot.<ref>Khandelwal, S. (2017, September 7). <i>[https://thehackernews.com/2017/09/ai-digital-voice-assistants.html Hackers Can Silently Control Siri, Alexa & Other Voice Assistants Using Ultrasound]</i>. Retrieved from thehackernews.com</ref> Cyber criminals are able to resonate commands to devices such as Siri at a frequency inaudible to the human ear, yet clear to DAs.<ref>Khandelwal, S. (2017, September 7). <i>[https://thehackernews.com/2017/09/ai-digital-voice-assistants.html Hackers Can Silently Control Siri, Alexa & Other Voice Assistants Using Ultrasound]</i>. Retrieved from thehackernews.com</ref> By doing so, these cyber criminals are able to use the DA’s to visit malicious websites, or pose questions to the DAs that are critical to the operation of the GC.</p>
+  
+  <p class="inline expand mw-collapsible-content">These voice activated DAs can be prone to spying. Cyber criminals can compromise the DA’s system, allowing them to hear top secret conversations and use built-in cameras to see those involved. In addition, most of the newer DAs are constantly listening. They use low power processing that is constantly listening for a command to be posed.</p><p class="inline"> The background audio recordings and legitimate questions are all sent back to a main database owned by the DAs operator, and then the security of these files is in the hands of those operators (ex: Google, Amazon, Microsoft, Samsung, etc.). If any of those companies have a security breach, sensitive information from the GC could be accessed and shared with malicious actors. On a smaller scale, this has accidentally happened when an Amazon Echo device misinterpreted a conversation being held in another room, and sent the entire audio file to a contact stored in a contact list<ref>Machkovech, S. (2018, May 24). <i>[https://arstechnica.com/gadgets/2018/05/amazon-confirms-that-echo-device-secretly-shared-users-private-audio/ Amazon confirms that Echo device secretly shared user's private audio]</i>. Retrieved from arstechnica.com</ref>.</p>
+  <p class="inline-spacer"></p>
+  <p class="inline">Other security flaws with DAs involve the use of “skills”. Skills can added to a DA from a skills store operated by the DA owner. Some of them are user submitted and this can pose some problems. Voice squatting<ref>Umawing, J. (2018, May 30). Researchers discover vulnerabilities in smart assistants’ voice commands. Retrieved from blog.malwarebytes.com: https://blog.malwarebytes.com/cybercrime/2018/05/security-vulnerabilities-smart-assistants/</ref> is when the DA can be exploited through the way it launches skills. If a malicious user submitted skill is similarly spelled and pronounced like a legitimate one, the user may accidentally invoke the malicious skill. For example, a command like “Hey Alexa, open Capital One” could also be interpreted as “Hey Alexa, open Capitol Won” and the command might open a malicious skill.</p><p class="inline expand mw-collapsible-content"> There is also the possibility of “voice masquerading”, where a harmful skill impersonates a legitimate one and could trick the user into giving out sensitive information. Piggybacking off of this technique, is the concept of “faking termination” where the harmful skill will pretend to deactivate, but in reality it is still listening and recording information in the background.</p>
+
+  <h4>Considerations</h4>
+
+  <p>The draft of the Responsible Artificial Intelligence in the Government of Canada White Paper<ref>Karlin, M. (2017, October 16). <i>[https://gccollab.ca/file/view/161410/enresponsible-ai-in-the-government-of-canadafr Responsible AI in the Government of Canada]</i>. Retrieved from gccollab.ca</ref> from the Treasury Board of Canada Secretariat outlines some very good considerations for institutions within the GC looking to deploy chatbots:</p>
+  
+  <ul>
+      <li>Chatbot conversations should be introduced with a brief privacy notice that is compliant with the Treasury Board Standard on Privacy and Web Analytics<ref>Treasury Board of Canada Secretariat. (2013, January 31). Standard on Privacy and Web Analytics. Retrieved from tbs-sct.gc.ca: https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=26761</ref>. This notice should provide a link to a page with more information on the information collected in the course of the conversation, including any metadata, for example: time and date, duration, whether the conversation was ended by the user or the agent, whether and when the discussion was escalated to a human, etc.</li>
+      <li>Whether the bot is able to provide a professional tone as a representative of the Government of Canada. Machine learning chatbots may learn language that is potentially unprofessional, abusive, or harassing if exposed to sufficient examples. Where possible, institutions should work with vendors to prevent them from learning this behaviour, whether using a keyword blacklist, or other methodology. It is important to be continually monitoring chatbots’ performance in this regard.</li>
+      <li>Institutions should be mindful that people in rural or remote locations may encounter latency that will affect their ability to respond to the chatbot’s queries. It's important to ensure that response times from the user are permissive.</li>
+      <li>Institutions should be mindful that people in rural or remote locations may encounter latency that will affect their ability to respond to the chatbot’s queries. It's important to ensure that response times from the user are permissive.</li>
+      <li>Chatbots need to be accessible. They should use plain language so as to be understood by users with lower levels of education or comfort with Canada’s official languages. It is also important that chatbots be able to be read by screen readers, or are able themselves to communicate vocally, for persons with visual disabilities.</li>
+      <li>Users should be provided with a clear escape from the conversation. If a user finds that a chatbot is no longer useful, or is incapable of answering their query, there should be a clear means to transfer the conversation to a human agent (if available), or to send email correspondence. Additionally, if a chatbot has answered a query and the user has ended the session or refrained from answering another question, the chatbot should politely end the conversation.</li>
+  </ul>
+  
+  <p class="expand mw-collapsible-content">The same white paper also lists questions that should be asked before the creation of a chatbot:</p>
+
+  <ul class="expand mw-collapsible-content">
+      <li>Is there a clear business driver for the chatbot?</li>
+      <li>Are the most common inquiries known and easily answerable? </li>
+      <li>What can be automated without taking away from the user experience and satisfaction?</li>
+      <li>What is the sensitivity of the information that the chatbot will likely receive or relay?</li>
+      <li>Will the interaction be an entirely scripted one, or allow the user to ask open questions?</li>
+      <li>Will there be an escalation process to a human live chat?</li>
+      <li>Can interactions be stored in your Customer Relation Management software? Will it enable engagement across other channels (e.g. email, phone, in-person)?</li>
+  </ul>
+  
+  <p class="expand mw-collapsible-content">As for DA’s, on top of the challenges already listed, it’s important to monitor if DA’s are enabled on the mobile devices being issued to government employees. Taking into account all of the known security risks, mobile devices could be a new vulnerability if the pre-installed DA’s are vulnerable to attacks, and if the information collected from conversations is sensitive and is shared back to the DA’s database. DA’s on mobile devices should be disabled to prevent any data leaks and to cut off new attack vectors.</p>
+  
+  <p>In accordance with the shift towards adopting open source tools, the GC should consider testing and adopting open source DAs. As with their commercial counterparts, they are continuously evolving thanks to user input and also have the same capabilities, without the risk of information being sent back to a central database. They also support custom “skills” that can potentially be made by the GC to cater to specific problems.</p>
+  
+  <p class="inline">Ultimately, conversational user interfaces are still being developed and refined as more and more companies are developing their own solutions. This means that over time, the challenges introduced by the technology with become less significant and the solutions will become more useful and intuitive.</p><p class="inline expand mw-collapsible-content"> At present, there are many applications for chatbots in client facing contexts (ex: client to website), but less so for internal contexts (ex: employee to HR).</p><p class="inline"> Digital assistants are a potentially disruptive technology that will save time but also might cut back on the need for employees whose sole tasks could be completed by a DA. There is currently not much enterprise use for digital assistants when compared to the consumer market. There is a lot of potential for DAs to help in the enterprise sphere, but it has yet to be realized.</p>
+
+  <h2>References</h2>
+</div>
+
+{{#css:
+
+  div>a>img {
+    width: 100%;
+    height: auto;
+  }
+
+  #firstHeading::after{
+   content:"Digital Assistants";
+  }
+
+  /* PC Formatting */
+
+  .sidetable{ float: right; width: 25%; cursor: auto; text-align: center;}
+  .wikitable{ margin: 0px 0px 0px 0px;  }
+  .logo{  text-align: center; }
+  .disclaimer{  border: 1px solid red;  background-color: rgba(255, 0, 0, 0.3); }
+
+  .breadcrumb{
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(162, 169, 177);
+  }
+  .breadcrumb-table{  margin: auto; }
+
+  .expand{  background-color: rgba(242, 109, 33, 0.2); }
+  .mw-collapsible-text{ text-align:left;  }
+  .inline{  display: inline; }
+  .inline-spacer{ display: block; }
+
+  .btn {
+  	display: inline-block;
+  	margin-bottom: 0;
+  	font-weight: 400;
+  	text-align: center;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	-ms-touch-action: manipulation;
+  	touch-action: manipulation;
+  	cursor: pointer;
+  	background-image: none;
+  	border: 1px solid transparent;
+  	padding: 6px 12px;
+  	font-size: 14px;
+  	line-height: 1.42857143;
+  	border-radius: 4px;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+
+    width: 230px;
+    color: rgba(242, 109, 33, 1);
+  	background-color: rgba(242, 109, 33, 0.1);
+  	border-color: rgba(242, 109, 33, 1);
+    text-decoration: none;
+  }
+
+  .btn:hover {
+  	color: rgba(255, 255, 255, 1);
+  	background-color: rgba(242, 109, 33, 1);
+    text-decoration: none;
+  }
+
+  .hypecycle {
+    width: 80%;
+    margin: auto;
+  }
+
+  .container{
+    width: 100%;
+    display: block;
+  }
+
+  .row{
+    width: 100%;
+    display: table;
+  	content: " ";
+  }
+
+  .col-sm-8{
+    width: 66.6666666666%;
+    float:left;
+  }
+
+  .col-sm-4{
+    width: 33.33333333333%;
+    float:left;
+  }
+
+  .hypecycleTable{
+    width: 100%;
+  }
+
+  /* Mobile Formatting */
+  @media (max-width: 992px){
+    .sidetable{ width: 80%; margin-left: 10%; margin-right: 10%;}
+
+    .container{
+      display: block;
+      clear: both;
+    }
+
+    .col-sm-8,
+    .col-sm-6,
+    .col-sm-4{
+      display: block;
+      width: 100%;
+      clear: both;
+      margin: auto;
+    }
+  }
+  @media (max-width: 600px){
+    .sidetable{ width: 100%; margin-left: 0px; margin-right: 0px;}
+  }
+
+}}
