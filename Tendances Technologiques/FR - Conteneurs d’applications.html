@@ -1,0 +1,238 @@
+{{DISPLAYTITLE:<span style="position: absolute; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px);">{{FULLPAGENAME}}</span>}}
+[[fr:Tendances_Technologiques/Conteneurs_dApplication]]
+
+<div class="mw-collapsible" data-expandtext="Show Detailed View" data-collapsetext="Hide Detailed View">
+  <div class="sidetable">
+    <table class="wikitable">
+      <tr>
+        <th class="breadcrumb" colspan="2">
+          <table class="breadcrumb-table">
+            <tr>
+              <th>[[Technology_Trends|Technology Trends]]</th>
+              <th> / </th>
+              <th>[[Technology_Trends|Application Containers]]</th>
+            </tr>
+          </table>
+          <table class="breadcrumb-table">
+            <tr>
+              <th>[[Tendances_Technologiques|Tendances Technologiques]]</th>
+              <th> / </th>
+              <th>Conteneurs Logiciels<!--[[Tendances_Technologiques/Plateforme_de_Gestion_Infonuagique|Conteneurs d’applications]]--></th>
+            </tr>
+          </table>
+        </th>
+      </tr>
+      <tr><td colspan="2" class="logo"></td></tr>
+      <tr>
+        <th>Status</th>
+        <td>Publié</td>
+      </tr>
+      <tr>
+        <th>Version originale</th>
+        <td>20 février 2020</td>
+      </tr>
+      <tr>
+        <th>Mise à jour</th>
+        <td>20 février 2020</td>
+      </tr>
+      <tr>
+        <th>Publication Officielle</th>
+        <td>[[Media:FR_-_Tendences_Technologiques_-_Conteneurs_dApplication.pdf|Conteneurs d’applications.pdf]]</td>
+      </tr>
+      <tr><td colspan="2" class="disclaimer"><table><tr>
+        <td>[[File:Traffic_cone.png|40px]]</td>
+        <td class="disclaimerText">Cette page est sujet à des mises à jours. On encourage toutes rétroactions. Veuillez utiliser la page de discussion pour apporter des commentaires et des suggestions. Une fois que cette version soit approuvée et finalisée, elle va être traduite.</td>
+      </tr></table></td></tr>
+    </table>
+  </div>
+
+  <p>Les <b>conteneurs d’applications</b> sont une forme de virtualisation du système d'exploitation dans laquelle les applications distribuées sont exécutées sur une seule machine virtuelle ou un hôte physique plutôt que sur une pour chaque application.
+  </p>
+
+  <div class="mw-collapsible-toggle btn" style="float: left; display: block;">
+    <div class="toggle mw-collapsible-toggle-collapsed" role="button" tabindex="0"><span class="mw-collapsible-text">Cacher la Vue Détaillée</span></div>
+  </div><br><br>
+
+  <h2>Sommaire opérationnel</h2>
+  <p>Les conteneurs d’applications sont un type de virtualisation des SE, en ce sens que les applications distribuées sont exécutées sur une seule machine virtuelle ou hôte matériel plutôt que sur des machines virtuelles ou hôtes distincts. Un SE hôte peut prendre en charge plus d’un conteneur, et on peut exécuter ces derniers sur des systèmes divers, notamment de façon délocalisée ou sur des machines virtuelles, et sur des SE différents comme Linux, Windows, et Macintosh. Les conteneurs d’applications présentent d’immenses avantages, car on peut les déployer en environnement infonuagique. Cependant, leur avantage prépondérant, c’est leur architecture : comme on peut les exécuter à partir de machines virtuelles ou matérielles différentes, les applications ainsi déployées sont plus facilement accessibles. Ces machines peuvent faire partie d’une architecture infonuagique ou non, et cela donne une grande souplesse à la gestion de la charge de travail, et permet aux développeurs de créer des systèmes qui tolèrent les pannes.</p>
+
+  <p>Les conteneurs d’applications recentrent les centres de données : d’une optique axée sur les machines, ils doivent passer à une optique fondée sur les applications. Comme les conteneurs englobent l’environnement de l’application, et abstraient la machine, le système d’exploitation, le développeur et l’infrastructure de déploiement. Les conteneurs et les images de conteneurs bien conçus se cantonnent à une seule application, gérer les conteneurs revient à gérer des applications plutôt que des machines. La transition des interfaces applicatives, auparavant axées sur les machines, à une orientation axée sur les applications, simplifie considérablement le développement des applications.</p>
+
+  <div class="mw-collapsible-content" style="width: 30%; margin: auto;" align="center">
+    [[File:Technology_Trends_-_Tendances_Technologiques_-_Conteneurs_dApplication.jpg|center]]
+    <p>Figure 1: Architecture comparée <br/>
+      des machines virtuelles et des conteneurs d’applications 
+      </p>
+  </div>
+
+  <h2>Exposé technique</h2>
+
+  <p>Pour penser clairement à propos des conteneurs et leur fonctionnement, il est utile de les voir comme des images système. On peut agencer ces images de façon hiérarchique, et lier des applications à cette hiérarchie. Mieux, chaque nœud de cette hiérarchie en arborescence permet aux utilisateurs de partager des images entre applications. On peut ainsi configurer des états binaires; en d’autres termes il n’est pas nécessaire de déplacer la pile complète de l’application dans un seul fichier. Le lien entre images et conteneurs ressemble à celui entre classe et objet, en programmation orientée objet : tout objet est une instance d’une classe. Une pomme, par exemple, est une instance de la classe fruit. La classe dicte les données enregistrées sur l’objet et les fonctions qu’on peut appliquer è l’objet. Dans le cas des conteneurs d’applications, l’image, tout comme la classe, constitue le modèle appliqué au conteneur. En d’autres termes, le conteneur ressemble à une instance (ou objet) de cette classe.</p>
+  <p>Cette architecture présente un autre avantage : en cas de découverte d’une vulnérabilité dans un nœud précis, l’arborescence permet de vérifier tous les autres nœuds pouvant être touchés. Avant de créer des images, il importe d’étudier un exemple. Docker est un système de création de conteneurs; il se sert d’un fichier Docker pour créer les images. Les conteneurs servent à isoler les processus exécutés dans le SE.</p>
+  <p>On peut considérer les conteneurs d’applications comme une forme de virtualisation semblable aux machines virtuelles (MV). À la différence de ces dernières, cependant, les conteneurs d’applications virtualisent le niveau système d’exploitation plutôt que la pile complète.<ref>What are Containers and their benefits  |  Google Cloud. (n.d.). Retrieved from <i>[https://cloud.google.com/containers/.]</i></ref> C’est pourquoi ils sont bien plus légers, et ne nécessitent qu’une fraction de la mémoire et de la puissance de traitement des MV, car un seul SE peut héberger de nombreux conteneurs.</p>
+
+  <p class="expand mw-collapsible-content">Les conteneurs d’applications simplifient la mise en place d’une architecture axée sur les services (AAS). Dans ce type d’architecture, une application est atomisée en ses services constitutifs. Or, les conteneurs permettent de lancer chaque service dans un conteneur distinct. La mise en grappe permet ensuite de mettre à l’échelle les services au besoin. Cependant, il faut les outils d’orchestration appropriés pour synchroniser le tout et permettre la mise à l’échelle. Ces outils d’orchestration des conteneurs gèrent le cycle de vie des conteneurs; une équipe de développement pourra aussi s’en servir pour créer et déployer les conteneurs, vérifier la redondance et la disponibilité, et transférer les conteneurs d’un hôte à l’autre.</p>
+  <p class="expand mw-collapsible-content">On peut aussi déployer en conteneur des applications monolithiques : comme ce sont essentiellement des applications à un niveau; une instance sera déployée dans un conteneur. Cela diffère de la stratégie AAS ou microservices, car un conteneur représente un service de cette application. Avec les conteneurs, mettre à l’échelle une application monolithique veut dire déployer de multiples instances du conteneur, et donc autant de conteneurs. Docker permet de déployer les mises à jour d’une application dans des images Docker, une méthode rapide et économe en ressources réseau. Et, comme on peut multiplier les conteneurs plus rapidement, créer d’autres instances d’une application est aussi plus rapide.</p>
+  <p>Docker et CoreOS sont les deux grands fabricants de technologies mettant en œuvre  les conteneurs. Comme Docker a été le premier, c’est le plus utilisé par l’industrie. Les conteneurs d’applications sont les plus utiles aux entreprises d’envergure. Docker est sur le marché depuis 2014; selon un sondage de Datadog mené en 2016, l’adoption de Docker a augmenté de plus de 30 pour cent par rapport à 2015. Point important sur ces statistiques : les entreprises sondées exploitent Docker en production plutôt qu’uniquement pour le développement, ce qui laisse penser qu’elles utilisent les conteneurs dans une stratégie à long terme plutôt que simplement en faire l’essai.</p>
+
+  <p>On peut voir Docker comme le « moteur » de gestion et de création des conteneurs, mais ce n’est pas le seul. D’autres, comme OpenShift, Kubernetes et Rancher, proposent divers outils pour gérer les conteneurs.</p>
+
+  <p>OpenShift gère les conteneurs à l’aide de Docker et de Kubernetes en arrière-plan : ce logiciel s’intègre à Kubernetes pour automatiser des fonctions comme l’échelonnage, le déploiement et la gestion de l’état de santé des conteneurs. Originellement créé par Google, Kubernetes est un outil d’orchestration bien conçu servant à gérer les conteneurs. Il présente au client une interface applicative de haut niveau avec laquelle on peut regrouper les conteneurs logiquement, gérer les charges et créer des ensembles de conteneurs. Rancher, quant à lui, est un outil de gestion des conteneurs créé sur la plateforme de conteneurs Kubernetes.</p>
+
+  <h2>Utilisation par l’industrie</h2>
+
+  <p>Plusieurs organisations d’envergure ont souligné les avantages d’intégrer les conteneurs à leur cycle de développement. ADP, par exemple, crée des solutions infonuagiques de gestion des ressources humaines; elle compte 630 000 clients et grosso modo 35 millions d’utilisateurs de ses systèmes. Elle a choisi d’accélérer son cycle de développement à l’aide de conteneurs d’applications : en avril 2017, elle exploitait 469 moteurs Docker et 3 771 conteneurs roulant sur des machines virtuelles. PayPal, qui héberge la plus grande plateforme de paiement en ligne au monde, est aussi friand des conteneurs d’applications. Elle compte plus de 210 millions d’utilisateurs dans 200 marchés à l’étranger, et traite chaque trimestre des transactions d’une valeur de près de 100 milliards de dollars. PayPal a modernisé ses centres de données à l’aide de Docker, et, en 2016, l’entreprise a déployé son premier conteneur en AQ et en production. Comme ses applications étaient maintenant indépendantes du système d’exploitation sous-jacent, PayPal a pu moderniser son infrastructure sans devoir mettre à jour ses applications. Avec une infrastructure plus moderne et plus rapide, PayPal a observé une amélioration des performances de 10 à 20 pour cent, sans la moindre interruption de service. L’entreprise a maintenant migré 700 applications vers Docker, et compte 45 000 MV en production qui hébergent plus de 150 000 conteneurs.</p>
+
+  <h2>Utilisation par le gouvernement du Canada</h2>
+
+  <p>Peu d’initiatives ou de programmes connus du gouvernement du Canada (GC) encouragent l’utilisation actuelle ou future des conteneurs d’applications et des technologies connexes. Les conteneurs d’applications, en tant qu’élément stratégique en TI du GC, sont absents tant du Plan stratégique des opérations numériques du GC de 2018 à 2022 que du Plan stratégique du GC pour la gestion de l’information et la technologie de l’information de 2017 à 2021. Cela peut découler des priorités actuelles de SPC, c’est-à-dire le regroupement et la transformation numérique de concert avec la mise en œuvre des services infonuagiques. L’essentiel des ressources et des efforts est consacré à résoudre les problèmes de mise en œuvre et à régler des questions entourant la protection des données confidentielles des Canadiens.</p>
+
+  <p>L’arrivée sur le marché des conteneurs démontre toutefois que les organisations d’envergure qui exploitent les réseaux et travaillent au développement d’applications infonuagiques peuvent bénéficier considérablement des conteneurs d’applications.<ref>CENGN. (2018). CENGN and CloudOps Collaborate to Train Industry on Docker and Kubernetes. <i>[https://www.cengn.ca/docker-kubernetes-training-jan18/]</i></ref> Il est certes possible de mettre en œuvre les applications d’infrastructure qui assurent les services infonuagiques exclusivement sur des machines virtuelles, mais les frais de maintenance découlant de l’utilisation de plusieurs systèmes d’exploitation différents sur des MV distinctes en annulent les avantages.<ref>Heron, P. (2018). Experimenting with containerised infrastructure for GOV.UK - Inside GOV.UK. [online] Insidegovuk.blog.gov.uk. Available at: <i>[https://insidegovuk.blog.gov.uk/2017/09/15/experimenting-with-containerised-infrastructure-for-gov-uk/]</i></ref> Or, les conteneurs et les technologies connexes constituent une architecture de remplacement des MV sinon complémentaire à celles-ci. Avec la transition du GC vers les services infonuagiques et le développement d’applications infonuagiques, exploiter les conteneurs d’applications et en orchestrer le fonctionnement par Kubernetes pourra faire partie intégrante de l’architecture de TI du GC.</p>
+
+  <h3>Répercussions pour Services partagés Canada</h3>
+
+  <h4>Proposition de valeur</h4>
+  <p>Les conteneurs d’applications ont une multitude d’utilisations possibles, et SPC peut certes tirer parti d’un outil si souple. Les conteneurs d’applications sont particulièrement utiles pour le développement et la mise à l’essai de nouvelles applications, car les déployer pour créer un environnement sûr pour l’exécution de code, comme un bac à sable, est un jeu d’enfant. Un fichier de configuration permet de configurer facilement chaque conteneur, notamment l’échelonner pour répondre à tout besoin en ressources. Comme leur configuration est très simple, les conteneurs d’applications sont souvent intégrés au cadre de développement des logiciels destinés à une architecture axée sur les services (AAS), pour héberger des microservices. Une application développée pour une AAS consiste souvent en de nombreux petits éléments (les microservices) qui fonctionnent ensemble et s’échangent des données.<ref>Abeywardhana, Sajith. (February 9th, 2019). SOA vs Microservices with Docker and Kubernetes-1. Medium. Retrieved 18-July-2019 <i>[https://medium.com/@sajithswa/soa-vs-microservices-with-docker-and-kubernetes-1-291686200a0f ]</i></ref> Si SPC adopte l’AAS ou un autre modèle de développement semblable, comme l’architecture fondée sur les microservices, les conteneurs d’applications seront un outil de développement incontournable.</p>
+  <p class="inline">Les conteneurs peuvent simplifier et accélérer le déploiement des applications. On peut même prévoir des économies supplémentaires, car les besoins en mémoire du serveur hôte sont plus modestes si on utilise les conteneurs. On peut aussi créer plus d’un conteneur pour une même application, comme dans l’AAS. En pratique, cela simplifie le contrôle des versions : plutôt qu’appliquer un correctif directement, on peut plutôt retirer le conteneur qui héberge un élément de l’application puis le mettre à jour sans perturber le fonctionnement de l’application.</p>
+  <p class="expand mw-collapsible-content">Si on gère tous les conteneurs d’une application à l’aide d’un orchestrateur, le risque de perturbation est encore plus bas, car cet outil peut surveiller l’état de santé de tous les conteneurs qu’il gère.<ref>Wagner, Bill, et al. (June 1st, 2019). Health Monitoring - .NET Microservices: Architecture for Containerized .NET Applications. Microsoft Developer Division. Redmon, Washington. Retrieved 19-July-2019. <i>[https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/implement-resilient-applications/monitor-app-health ]</i></ref> S’il détecte qu’un conteneur ne fonctionne pas comme prévu, il peut le mettre hors service automatiquement et en lancer d’autres pour compenser.</p>
+   <p class="inline">De plus, les conteneurs sont portables : ils exécutent les programmes qu’ils contiennent de façon identique à chaque lancement, où qu’ils soient.  En d’autres termes, les applications sont exécutées de façon uniforme en environnement normalisé, qu’on lance le conteneur à partir du nuage ou d’un serveur matériel. Cela élimine à toutes fins utiles les installations et configurations fastidieuses sur chaque ordinateur d’un réseau : il suffit plutôt de lancer l’application à partir d’un conteneur. Cette portabilité peut aussi simplifier l’utilisation d’applications désuètes; si par exemple une application a besoin d’un environnement précis, comme des versions précédentes de Java ou Python, il suffit de recréer cet environnement dans un conteneur.</p>
+  <p class="expand mw-collapsible-content">Des restrictions restent toutefois présentes : il est impossible de lancer les conteneurs créés sur une plateforme, comme Docker, sur une autre plateforme comme Linux Containers, il certains problèmes de compatibilité en amont persistent, car les conteneurs créés pour une version récente d’une plateforme peuvent ne pas fonctionner sur une version plus ancienne de cette même plateforme.<ref>Tozzi, Chris. (2017). The pros and cos of container platforms for portability. Search Microservices. Retrieved 22-July-2019 <i>[https://searchmicroservices.techtarget.com/tip/The-pros-and-cons-of-container-platforms-for-portability ]</i></ref></p>
+  <h4>Enjeux</h4>
+  <p>Quatre obstacles de taille risquent d’empêcher l’adoption des conteneurs d’applications :</p>
+  <p><b>Éducation et formation du personnel </b>-- Pour bien exploiter les conteneurs, il faut de toutes nouvelles compétences. Les équipes de TI doivent aussi bien connaître la plateforme de conteneurs et l’outil de gestion des conteneurs qu’ils utiliseront. En outre, ces équipes devront peut-être apprendre de nouvelles balises de conception, comme l’AAS, avant de pouvoir tirer pleinement parti des conteneurs d’applications.</p>
+
+  <p><b>Choix de la bonne plateforme et du bon outil d’orchestration </b>-- Cette décision cruciale dépend des besoins de chaque organisation. Divers outils sont disponibles, en fonction du système d’exploitation sur lequel rouleront les conteneurs d’application. Le GC envisage l’adoption d’outils de source ouverte; les options abondent et chacune a ses points forts et points faibles.</p>
+
+  <p><b>Reconception des applications </b>-- Les applications existantes développées selon un modèle monolithique ne se prêtent pas toutes à l’environnement des conteneurs. Des problèmes peuvent survenir si les développeurs mettent à jour une fonction d’une application existante, mais cela vaut essentiellement pour toutes les applications monolithiques. On peut toutefois les scinder en éléments plus petits qui eux peuvent fonctionner en conteneur, ce qui permet de les utiliser quand même sur les systèmes plus récents.</p>
+  <p><b>Sécurité</b>-- SLa sécurité est vitale, car on peut déployer les conteneurs en mode infonuagique, et en parallèle dans un réseau local. Question névralgique : comment concevoir une solution performante qui libère les utilisateurs sans être vulnérable aux fuites de données.</p>
+
+  <h4>Considérations</h4>
+  <p>En règle générale, les conteneurs ont des limites, comme toute technologie. Il est donc inutile de les adopter simplement pour innover. Les conteneurs d’applications comportent leurs propres difficultés et exigences, notamment le développement de compétences et le choix de l’ensemble logiciel adéquat. Si SPC s’oriente vers un modèle qui les rend incontournables, l’investissement voulu pour surmonter ces difficultés, et les coûts afférents, en vaudront la chandelle.</p>
+  <p>Sur le plan sécurité, supposer que les applications exécutées en conteneur sont sécurisées d’office serait irresponsable. Il faut tenir compte des questions de sécurité pendant tout le cycle de vie des applications, conteneurs compris. Si SPC adopte cette nouvelle technologie, d’autres mécanismes de sécurité devront être élaborés en fonction de celle-ci.</p>
+  <p class="expand mw-collapsible-content">Les conteneurs constituent un nouvel outil qui présente à SPC bien des avantages potentiels, à condition d’être bien gérés et bien intégrés au milieu de travail. </p>
+
+  <h2>Références (en anglais)</h2>
+<ref>6 Best Practices for Creating a Container Platform Strategy. (n.d.). Retrieved from <i>[https://www.gartner.com/smarterwithgartner/6-best-practices-for-creating-a-container-platform-strategy/.]</i></ref>
+<ref>Harvey, C., Proch, D., Davis, J., Froehlich, A., MacVittie, L., Wallace, B., … Windels, J. (2019, January 10). 5 Container Deployment Challenges. Retrieved from <i>[https://www.networkcomputing.com/data-centers/5-container-deployment-challenges/1532194322.]</i></ref>
+<ref>Rouse, M., McKenzie, C., Rouse, M., & Rouse, M. (n.d.). What is application containerization (app containerization)? - Definition from WhatIs.com. Retrieved from <i>[https://searchitoperations.techtarget.com/definition/application-containerization-app-containerization.]</i></ref>
+<ref>Run Kubernetes Everywhere. (n.d.). Retrieved from <i>[https://rancher.com/]</i></ref>
+<ref>Team, S.-S., & Written by Shadow-Soft Team View more posts written by this author ». (2018, February 8). 3 Open Source Container Management Tools (Comparison & Review). Retrieved from<i>[https://shadow-soft.com/open-source-container-management-tools/]</i></ref>
+<ref>Who's Using Docker? (2017, August 16). Retrieved from <i>[https://www.contino.io/insights/whos-using-docker]</i></ref>
+</div>
+
+{{#css:
+
+  div>a>img {
+    width: 100%;
+    height: auto;
+  }
+
+  #firstHeading::after{
+   content:"Conteneurs d'Applications";
+  }
+
+  /* PC Formatting */
+
+  .sidetable{ float: right; width: 25%; cursor: auto; text-align: center;}
+  .wikitable{ margin: 0px 0px 0px 0px;  }
+  .logo{  text-align: center; }
+  .disclaimer{  border: 1px solid red;  background-color: rgba(255, 0, 0, 0.3); }
+
+  .breadcrumb{
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(162, 169, 177);
+  }
+  .breadcrumb-table{  margin: auto; }
+
+  .expand{  background-color: rgba(242, 109, 33, 0.2); }
+  .mw-collapsible-text{ text-align:left;  }
+  .inline{  display: inline; }
+  .inline-spacer{ display: block; }
+
+  .btn {
+  	display: inline-block;
+  	margin-bottom: 0;
+  	font-weight: 400;
+  	text-align: center;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	-ms-touch-action: manipulation;
+  	touch-action: manipulation;
+  	cursor: pointer;
+  	background-image: none;
+  	border: 1px solid transparent;
+  	padding: 6px 12px;
+  	font-size: 14px;
+  	line-height: 1.42857143;
+  	border-radius: 4px;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+  	user-select: none;
+
+    width: 230px;
+    color: rgba(242, 109, 33, 1);
+  	background-color: rgba(242, 109, 33, 0.1);
+  	border-color: rgba(242, 109, 33, 1);
+    text-decoration: none;
+  }
+
+  .btn:hover {
+  	color: rgba(255, 255, 255, 1);
+  	background-color: rgba(242, 109, 33, 1);
+    text-decoration: none;
+  }
+
+  .hypecycle {
+    width: 80%;
+    margin: auto;
+  }
+
+  .container{
+    width: 100%;
+    display: block;
+  }
+
+  .row{
+    width: 100%;
+    display: table;
+  	content: " ";
+  }
+
+  .col-sm-8{
+    width: 66.6666666666%;
+    float:left;
+  }
+
+  .col-sm-4{
+    width: 33.33333333333%;
+    float:left;
+  }
+
+  .hypecycleTable{
+    width: 100%;
+  }
+
+  /* Mobile Formatting */
+  @media (max-width: 992px){
+    .sidetable{ width: 80%; margin-left: 10%; margin-right: 10%;}
+
+    .container{
+      display: block;
+      clear: both;
+    }
+
+    .col-sm-8,
+    .col-sm-6,
+    .col-sm-4{
+      display: block;
+      width: 100%;
+      clear: both;
+      margin: auto;
+    }
+  }
+  @media (max-width: 600px){
+    .sidetable{ width: 100%; margin-left: 0px; margin-right: 0px;}
+  }
+
+}}
